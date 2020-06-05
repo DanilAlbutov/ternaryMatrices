@@ -44,10 +44,10 @@ public class MainClass {
 						}
 					}
 					if (curret.equals("!a")) {
-						var[Integer.parseInt(curretNum) - 1] = "0";
+						var[5 - (Integer.parseInt(curretNum) )] = "0";
 					}
 					if (curret.equals("a")) {
-						var[Integer.parseInt(curretNum) - 1] = "1";
+						var[5 - (Integer.parseInt(curretNum) )] = "1";
 					}
 					if (curret.equals("!x")) {
 						var[Integer.parseInt(curretNum) + 4] = "0";
@@ -70,10 +70,10 @@ public class MainClass {
 							}
 						}
 						if (curret.equals("!a")) {
-							var[Integer.parseInt(curretNum) - 1] = "0";
+							var[5 - Integer.parseInt(curretNum)] = "0";
 						}
 						if (curret.equals("a")) {
-							var[Integer.parseInt(curretNum) - 1] = "1";
+							var[5 - Integer.parseInt(curretNum) ] = "1";
 						}
 						if (curret.equals("!x")) {
 							var[Integer.parseInt(curretNum) + 4] = "0";
@@ -96,10 +96,10 @@ public class MainClass {
 								}
 							}
 							if (curret.equals("!a")) {
-								var[Integer.parseInt(curretNum) - 1] = "0";
+								var[ 5 - Integer.parseInt(curretNum)] = "0";
 							}
 							if (curret.equals("a")) {
-								var[Integer.parseInt(curretNum) - 1] = "1";
+								var[5 - Integer.parseInt(curretNum)] = "1";
 							}
 							if (curret.equals("!x")) {
 								var[Integer.parseInt(curretNum) + 4] = "0";
