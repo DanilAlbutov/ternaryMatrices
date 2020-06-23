@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class MainClass {
 
-	public static String[] var = new String[22];
+	public static String[] var = new String[21];
 	
 	public static void fillArr() {
 		for (int i = 0; i < var.length; i++) {
@@ -44,16 +44,16 @@ public class MainClass {
 						}
 					}
 					if (curret.equals("!a")) {
-						var[5 - (Integer.parseInt(curretNum) )] = "0";
+						var[4 - (Integer.parseInt(curretNum) )] = "0";
 					}
 					if (curret.equals("a")) {
-						var[5 - (Integer.parseInt(curretNum) )] = "1";
+						var[4 - (Integer.parseInt(curretNum) )] = "1";
 					}
 					if (curret.equals("!x")) {
-						var[Integer.parseInt(curretNum) + 4] = "0";
+						var[Integer.parseInt(curretNum) + 3] = "0";
 					}
 					if (curret.equals("x")) {
-						var[Integer.parseInt(curretNum) + 4] = "1";
+						var[Integer.parseInt(curretNum) + 3] = "1";
 					}
 					curret = "";
 					curretNum = "";
@@ -70,16 +70,16 @@ public class MainClass {
 							}
 						}
 						if (curret.equals("!a")) {
-							var[5 - Integer.parseInt(curretNum)] = "0";
+							var[4 - Integer.parseInt(curretNum)] = "0";
 						}
 						if (curret.equals("a")) {
-							var[5 - Integer.parseInt(curretNum) ] = "1";
+							var[4 - Integer.parseInt(curretNum) ] = "1";
 						}
 						if (curret.equals("!x")) {
-							var[Integer.parseInt(curretNum) + 4] = "0";
+							var[Integer.parseInt(curretNum) + 3] = "0";
 						}
 						if (curret.equals("x")) {
-							var[Integer.parseInt(curretNum) + 4] = "1";
+							var[Integer.parseInt(curretNum) + 3] = "1";
 						}
 						curret = "";
 						curretNum = "";
@@ -96,16 +96,16 @@ public class MainClass {
 								}
 							}
 							if (curret.equals("!a")) {
-								var[ 5 - Integer.parseInt(curretNum)] = "0";
+								var[ 4 - Integer.parseInt(curretNum)] = "0";
 							}
 							if (curret.equals("a")) {
-								var[5 - Integer.parseInt(curretNum)] = "1";
+								var[4 - Integer.parseInt(curretNum)] = "1";
 							}
 							if (curret.equals("!x")) {
-								var[Integer.parseInt(curretNum) + 4] = "0";
+								var[Integer.parseInt(curretNum) + 3] = "0";
 							}
 							if (curret.equals("x")) {
-								var[Integer.parseInt(curretNum) + 4] = "1";
+								var[Integer.parseInt(curretNum) + 3] = "1";
 							}
 							curret = "";
 							curretNum = "";
